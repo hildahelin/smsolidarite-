@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SMSolidarité</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; }
+    header { background-color: #2c3e50; color: white; padding: 1.5rem; text-align: center; }
+    nav { background: #34495e; padding: 0.75rem; text-align: center; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: bold; }
+    section { padding: 2rem; max-width: 800px; margin: auto; }
+    .request-card { background: white; padding: 1rem; margin: 1rem 0; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    footer { text-align: center; padding: 1rem; background: #bdc3c7; margin-top: 2rem; }
+    .subtitle { font-style: italic; font-size: 1.1rem; margin-top: 0.5rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SMSolidarité</h1>
+    <p class="subtitle">Bir Okuldan Bin Kalbe – Dayanışma Köprüsü</p>
+    <p class="subtitle">D’une école à mille cœurs – Un pont solidaire</p>
+    <p class="subtitle">From One School to a Thousand Hearts – A Bridge of Solidarity</p>
+  </header>
+
+  <nav>
+    <a href="#requests">Destek Talepleri</a>
+    <a href="#form">Destek Ol</a>
+    <a href="#contact">İletişim</a>
+  </nav>
+
+  <section id="requests">
+    <h2>Destek Talepleri</h2>
+    <div class="request-card">
+      <h3>Kars Yalınçayır İlkokulu</h3>
+      <p><strong>İhtiyaç:</strong> 30 defter, 10 mont</p>
+      <p><strong>Aciliyet:</strong> Yüksek</p>
+      <p><strong>Açıklama:</strong> Kış için acil ihtiyaç var.</p>
+    </div>
+    <div class="request-card">
+      <h3>Aile Sosyal Hizmetler Yurdu</h3>
+      <p><strong>İhtiyaç:</strong> Oyuncak ve boyama kitabı</p>
+      <p><strong>Aciliyet:</strong> Orta</p>
+      <p><strong>Açıklama:</strong> 4–7 yaş grubu çocuklar için</p>
+    </div>
+  </section>
+
+  <section id="form">
+    <h2>Destek Ol</h2>
+    <p>Bağış yapmak için <a href="https://tally.so" target="_blank">bu formu</a> doldurabilirsiniz.</p>
+  </section>
+
+  <section id="contact">
+    <h2>İletişim</h2>
+    <p>Mail: smsolidarite@gmail.com</p>
+    <p>Instagram: @smsolidarite</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SMSolidarité | Saint Michel Lisesi</p>
+  </footer>
+</body>
+</html>
+
